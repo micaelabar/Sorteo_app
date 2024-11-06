@@ -1,0 +1,15 @@
+/* Estilo para los botones con borde visible y fondo transparente */
+.boton-transparente {
+  background-color: transparent; /* Fondo transparente */
+  border: 2px solid black; /* Bordes negros (puedes cambiar el color si lo prefieres) */
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  color: black; /* Color del texto (números) en negro */
+  transition: background-color 0.3s ease; /* Transición para el cambio de color al hacer hover */
+}
+
+.boton-transparente:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Fondo sutil cuando se pasa el mouse */
+}
+
